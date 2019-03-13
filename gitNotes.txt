@@ -1,0 +1,22 @@
+GIT NOTES
+
+
+1. Branching:
+
+-git checkout -b [your feature name]
+	-this will create a branch off of your master. It will also point your repo towards that 
+	branch now
+
+-git checkout master
+	-this will point your repo back towards master branch head
+	
+	
+-git push origin [your feature name] : pushes your local changes to this specific braches. must git add & git commit prior
+	
+	
+DELETE BRANCH:
+(Must merge first if you want to keep the changes)
+-git branch -d featuer_test_1 : deletes branch from your repo (can still exist on git)
+-git branch -D featuer_test_1 : Forces delete with "D" vs "d"
+
+git push origin --delete [branch name] : deletes branch (ON GIT) after merge occurs
