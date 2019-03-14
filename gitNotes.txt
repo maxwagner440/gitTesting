@@ -17,6 +17,9 @@ GIT NOTES
 	
 MERGING:
 
+git diff --name-status [branch to compare to]..[your branch] : allows you to see descrepencies between branch/master
+(compare branch = master)
+
 git fetch: fetches what other changes happened on other branches
 git branch -va : lets you know descrepencies between branches
 
