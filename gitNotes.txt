@@ -14,6 +14,25 @@ GIT NOTES
 -git push origin [your feature name] : pushes your local changes to this specific braches. must git add & git commit prior
 	
 	
+	
+MERGING:
+
+git diff --name-status [branch to compare to]..[your branch] : tells you differences between two branches
+branch to compare = master
+your branch = [branch name]
+
+git fetch: fetches what other changes happened on other branches
+git branch -va : lets you know descrepencies between branches
+
+git checkout master
+git pull 
+
+(if this works with no errors)
+perform merge (make sure you are on master branch. git checkout master should have done that)
+git merge [branch name]
+
+
+	
 DELETE BRANCH:
 (Must merge first if you want to keep the changes)
 -git branch -d featuer_test_1 : deletes branch from your repo (can still exist on git)
