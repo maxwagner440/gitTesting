@@ -13,7 +13,10 @@ GIT NOTES
 	
 -git push origin [your feature name] : pushes your local changes to this specific braches. must git add & git commit prior
 	
+Make sure both branches are up to date with changes
+
 	
+
 	
 MERGING:
 
@@ -31,6 +34,12 @@ git pull origin master
 perform merge (make sure you are on master branch. git checkout master should have done that)
 git merge [branch name]
 
+ISSUES WITH MERGING:
+
+1. If there are merge conflicts such as the same file has different stuff in it, we need to abort merge and changes
+files so they match.
+
+git merge --abort : Stops the current merge
 
 	
 DELETE BRANCH:
