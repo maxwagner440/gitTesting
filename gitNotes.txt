@@ -13,9 +13,10 @@ GIT NOTES
 	
 -git push origin [your feature name] : pushes your local changes to this specific braches. must git add & git commit prior
 	
-Make sure both branches are up to date with changes
+Make sure both branches are up to date with changes. If not, this will cause merge conflicts.
+May have to do this manually for now. Maybe another strategy that we can discuss.
 
-	
+
 
 	
 MERGING:
@@ -48,3 +49,10 @@ DELETE BRANCH:
 -git branch -D featuer_test_1 : Forces delete with "D" vs "d"
 
 git push origin --delete [branch name] : deletes branch (ON GIT) after merge occurs
+
+
+
+
+
+REFERENCES: https://www.git-tower.com/learn/git/faq/git-merge-branch
+https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/merge-conflicts
